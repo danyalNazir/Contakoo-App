@@ -1,11 +1,21 @@
 <resources>
     <string name="app_name">Contakoo</string>
     <string name="choose_your_source_of_contact">Choose your source of conatct!</string>
+<<<<<<< HEAD
+    <string name="MakeCall">Make a Call</string>
+    <string name="SendMessage">Send Message</string>
+=======
     <string name="Makecall">Make a Call</string>
     <string name="message">Send Message</string>
+>>>>>>> e77077e1a711dcd7b6b08e3a80caf17c124119a3
     <string name="email">Send Email</string>
     <string name="website">Open Website</string>
     <string name="enter_phone_no">Enter Phone No.</string>
     <string name="Call">Call</string>
     <string name="back">Back</string>
+<<<<<<< HEAD
+    <string name="enter_no_to_message">Enter No. to message</string>
+    <string name="message">Message</string>
+=======
+>>>>>>> e77077e1a711dcd7b6b08e3a80caf17c124119a3
 </resources>

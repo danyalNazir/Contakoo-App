@@ -33,7 +33,11 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextPhone" />
 
     <Button
+<<<<<<< HEAD
+        android:id="@+id/ButtonBackCall"
+=======
         android:id="@+id/ButtonBack"
+>>>>>>> e77077e1a711dcd7b6b08e3a80caf17c124119a3
         android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="23dp"

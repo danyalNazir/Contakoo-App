@@ -23,18 +23,22 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
+<<<<<<< HEAD
+        android:text="@string/MakeCall"
+=======
         android:text="@string/Makecall"
+>>>>>>> e77077e1a711dcd7b6b08e3a80caf17c124119a3
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mainText" />
 
     <Button
-        android:id="@+id/buttonMessage"
+        android:id="@+id/buttonSendMessage"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="@string/message"
+        android:text="@string/SendMessage"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -49,7 +53,7 @@
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonMessage" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonSendMessage" />
 
     <Button
         android:id="@+id/buttonWebsite"
