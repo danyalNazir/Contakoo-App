@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Contakoo</string>
+    <string name="choose_your_source_of_conatct">Choose your source of conatct!</string>
+    <string name="call">Make a Call</string>
+    <string name="message">Send Message</string>
+    <string name="email">Send Email</string>
+    <string name="website">Open Website</string>
+</resources>
