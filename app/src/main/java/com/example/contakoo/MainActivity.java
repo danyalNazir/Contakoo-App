@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button CallButton=(Button) findViewById(R.id.buttonCall);
+        Button CallButton=(Button) findViewById(R.id.buttonMakeCall);
         Button MessageButton=(Button)  findViewById(R.id.buttonMessage);
         Button EmailButton=(Button)  findViewById(R.id.buttonEmail);
         Button WebsiteButton=(Button)  findViewById(R.id.buttonWebsite);
@@ -23,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(MainActivity.this,MakeCallActivity.class);
+
+                startActivity(intent);
             }
         });
 
