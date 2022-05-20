@@ -2,7 +2,6 @@ package com.example.contakoo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -18,7 +17,7 @@ public class SendMessageActivity extends AppCompatActivity {
         setContentView(R.layout.activity_send_message);
 
         Button buttonMessage=(Button)  findViewById(R.id.buttonMessage);
-        Button buttonBack=(Button) findViewById(R.id.buttonBackMessage);
+        Button buttonBack=(Button) findViewById(R.id.buttonBackEmail);
         EditText editTextMessage=(EditText) findViewById(R.id.editTextMessage);
 
 

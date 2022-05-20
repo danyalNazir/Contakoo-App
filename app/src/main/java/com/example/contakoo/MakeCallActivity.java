@@ -17,11 +17,7 @@ public class MakeCallActivity extends AppCompatActivity {
         setContentView(R.layout.activity_make_call);
 
         Button buttonCall=(Button)  findViewById(R.id.ButtonCall);
-<<<<<<< HEAD
         Button buttonBack=(Button) findViewById(R.id.ButtonBackCall);
-=======
-        Button buttonBack=(Button) findViewById(R.id.ButtonBack);
->>>>>>> e77077e1a711dcd7b6b08e3a80caf17c124119a3
         EditText editTextCall=(EditText) findViewById(R.id.editTextPhone);
 
 
