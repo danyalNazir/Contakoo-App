@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         Button MessageButton=(Button)  findViewById(R.id.buttonSendMessage);
         Button EmailButton=(Button)  findViewById(R.id.buttonSendEmail);
         Button WebsiteButton=(Button)  findViewById(R.id.buttonWebsite);
+        TextView textView=(TextView) findViewById(R.id.mainText);
 
         CallButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,6 +42,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
+        WebsiteButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this,OpenWebsiteActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
